@@ -18,8 +18,8 @@ public class AddressBook {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Drivers loaded!!");
 			connection = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/address_book?allowPublicKeyRetrieval=true&useSSL=false", "root",
-					"dipali");
+					"jdbc:mysql://localhost:3306/address_book?allowPublicKeyRetrieval=true&useSSL=false",
+					"root", "dipali");
 			System.out.println("connection Established!!");
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
