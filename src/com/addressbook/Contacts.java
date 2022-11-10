@@ -3,7 +3,7 @@ package com.addressbook;
 import java.time.LocalDate;
 
 public class Contacts {
-	
+
 	private String firstName;
 	private String lastName;
 	private String address;
